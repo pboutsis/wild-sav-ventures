@@ -1,0 +1,181 @@
+header {
+  background-image: linear-gradient(to bottom right, rgb(0, 0, 0, 0.5), dodgerblue);
+  color: white;
+  float: center;
+  font-size: 70px;
+  font-family: brandongrotesque;
+  text-align: center;
+  padding: 30px;
+  width: 100%;
+  margin: 10px;
+  clear: both
+}
+.article {
+  word-wrap: break-word;
+  border-style: solid;
+  line-height: 1.2;
+  float: left;
+  padding: 20px;
+  background-color: rgb(0, 0, 0, 0.5);
+  width: 70%;
+  height: 130px;
+  color: white;
+  font-size: 30px;
+  margin: 20px;
+  clear: both;
+  width: 80%;
+  height: 100px;  
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 2px;
+  overflow: hidden;
+  background-color: #111111;
+  font-size: 20px;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 30px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: aqua;
+  color:black
+}
+figure {
+  float: center;
+  font-size: 2.0em;
+  font-family: brandongrotesque;
+  text-align: center;
+  background-color: rgb(0, 0, 0, 0.5);
+  padding: 10px;
+  text-align: center;
+  color: white;
+  width: 60%;
+  border: solid;
+  text-align:center;
+  
+}
+aside {
+  border-style: solid;
+  line-height: 1.5;
+  padding: 10px;
+  width:45%;
+  background-color: rgb(0, 0, 0, 0.5);
+  color: white;
+  font-size: 30px;
+  margin: 20px;
+  resize: both;
+  overflow: auto;
+}
+
+section {
+  overflow: auto;
+  border-style: solid;
+  float: center;
+  padding: 10px;
+  width:50%;
+  background-color: rgb(0, 0, 0, 0.5);
+  height: 700px;
+  color: white;
+  font-size: 30px;
+  margin: 40px;
+}
+summary {
+  float: right;
+  text-algin: right;
+  padding: 10px;
+  width: 45%;
+  background-color: rgb(0, 0, 0, 0.5);
+  height: px;
+  color: white;
+  font-size: 30px;
+  margin: 0px;
+}
+footer {
+  color: darkblue;
+  float: center;
+  font-size: 40px;
+  font-family: brandongrotesque;
+  text-align: center;
+  background-color: rgb(0, 0, 0, 0.5);
+  padding: 30px;
+  text-align: center;
+  color: white;
+  width: 100%;
+  margin: 10px;
+  -webkit-animation-name: example; 
+  -webkit-animation-duration: 4s; 
+  animation-name: example;
+  animation-duration: 4s;
+}
+
+@-webkit-keyframes example {
+  from {background-color: black;}
+  to {background-color: rgb(0, 0, 0, 0.5);}
+}
+
+@keyframes example {
+  from {background-color: black;}
+  to {background-color: rgb(0, 0, 0, 0.5);}
+}
+
+.b:link, a:visited {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+.b:hover, a:active {
+  background-color: dodgerblue;
+}
+
+body {
+      background-image: url("https://bit.ly/2H9ijQJ");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+
+    }
+
+.contact{
+  position:fixed;
+  float: left;
+  font-size: 80%;
+  font-family: brandongrotesque;
+  text-align: center;
+  background-color:black;
+  padding: 5px;
+  text-align: left;
+  color: white;
+  width: 15%;
+}
+.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  width: 15%;
+  float: left
+}
+.gallery:hover {
+  opacity: 0.9;
+  filter: alpha(opacity=50);
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+  float: center;
+}
+[title~=mountain] {
+  border: 1px solid black;
+}
+
+
